@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Todo_first</string>
+    <string name="next">Next</string>
+    <string name="textview">TextView</string>
+    <string name="previous">Previous</string>
+
+    <string-array name="tasks">
+        <item>Wake Up</item>
+        <item>Coffee</item>
+        <item>College</item>
+        <item>Table Tennis</item>
+        <item>Lunch</item>
+        <item>Listening Music</item>
+        <item>Study</item>
+        <item>Dinner</item>
+        <item>Sleep</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>Wake Up as early as possible</item>
+        <item>Have a nice Coffee</item>
+        <item>Go College at time</item>
+        <item>Play a Table Tennis</item>
+        <item>Have a greate Lunch</item>
+        <item>listen Music for entertainment</item>
+        <item>Manage time for Study</item>
+        <item>Have a awesome Dinner</item>
+        <item>Good Night to all</item>
+    </string-array>
+</resources>
