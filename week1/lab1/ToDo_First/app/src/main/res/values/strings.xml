@@ -3,6 +3,9 @@
     <string name="next">Next</string>
     <string name="textview">TextView</string>
     <string name="previous">Previous</string>
+    <string name="button_label_detail">Detail</string>
+    <string name="to_do_list">To do list</string>
+    <string name="checkbox">CheckBox</string>
 
     <string-array name="tasks">
         <item>Wake Up</item>

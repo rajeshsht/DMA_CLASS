@@ -26,7 +26,7 @@ public class Todo_DetailActivity extends AppCompatActivity {
         Resources res = getResources();
         description = res.getStringArray(R.array.description);
 
-        int currentIndex = getIntent().getIntExtra(MainActivity.TODO_INDEX, 0);
+        int currentIndex = getIntent().getIntExtra(MainActivity.TODO_KEY, 0);
 
 
         textView = findViewById(R.id.textView2);
@@ -54,11 +54,11 @@ public class Todo_DetailActivity extends AppCompatActivity {
 
 
     public void setIsComplete(boolean isChecked) {
-       if(isChecked){
-           Toast.makeText(Todo_DetailActivity.this, "Hurray, it's done!", Toast.LENGTH_LONG).show();
-       }else {
-           Toast.makeText(Todo_DetailActivity.this, "There is always tomorrow!", Toast.LENGTH_LONG).show();
-       }
+        if(isChecked){
+            Toast.makeText(Todo_DetailActivity.this, "Hurray, it's done!", Toast.LENGTH_LONG).show();
+        }else {
+            Toast.makeText(Todo_DetailActivity.this, "There is always tomorrow!", Toast.LENGTH_LONG).show();
+        }
         Intent intent = new Intent();
         intent.putExtra(IS_TODO_COMPLETE, isChecked);
         setResult(RESULT_OK,intent);
