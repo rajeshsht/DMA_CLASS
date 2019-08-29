@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
         if(currentIndex > 0){
             currentIndex = currentIndex % tasks.length;
         } else{
-            currentIndex = tasks.length-1;
+            currentIndex = tasks.length;
         }
         currentIndex = --currentIndex % tasks.length;
         Log.d("MainActivity", "value of current index:" +currentIndex);
