@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TodoFragments</string>
+    <string name="todo_title">Todo title</string>
+    <string name="todo_title_hint">Todo title hint</string>
+    <string name="todo_title_label">One line description of the todo</string>
+    <string name="todo_detail_label">Detail of what to do</string>
+    <string name="todo_complete_label">Is it complete?</string>
+    <string name="todo_date">Todo date</string>
+</resources>
